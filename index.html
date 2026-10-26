@@ -1,1 +1,370 @@
-bloggertemplate.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover the best Blogger templates for personal blogs, magazines, portfolios, and business websites. Explore free and premium responsive Blogger templates.">
+  <meta name="keywords" content="Blogger Templates, Free Blogger Templates, Premium Blogger Templates, Responsive Blogger Templates, SEO Blogger Templates, Blogger Themes 2027">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Blogger Templates — Free & Premium Blogger Themes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f7f8fc;--surface:#fff;--ink:#172033;--muted:#667085;--line:#e7eaf1;--blue:#4263eb;--blue-dark:#304bd0;--pale:#edf1ff;--green:#16865c;--shadow:0 16px 40px rgba(28,42,86,.08);--radius:20px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    button,input{font:inherit}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .container{width:min(1160px,calc(100% - 40px));margin:auto}
+    .topbar{background:#172033;color:#dce3f5;font-size:12px;text-align:center;padding:8px 16px}
+    .topbar strong{color:#fff}
+    header{background:rgba(255,255,255,.9);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}
+    .nav{height:76px;display:flex;align-items:center;gap:32px}
+    .brand{display:flex;align-items:center;gap:10px;font-family:Manrope,sans-serif;font-size:19px;font-weight:800;letter-spacing:-.7px;white-space:nowrap}
+    .brand-mark{width:36px;height:36px;border-radius:12px;background:var(--blue);color:white;display:grid;place-items:center;font-size:20px;font-weight:800;box-shadow:0 7px 16px #4263eb3b}
+    .brand span em{font-style:normal;color:var(--blue)}
+    .navlinks{display:flex;align-items:center;gap:25px;margin-left:auto;color:#4d566a;font-size:13px;font-weight:600}
+    .navlinks a:hover{color:var(--blue)}
+    .nav-actions{display:flex;align-items:center;gap:10px}
+    .search-icon{width:40px;height:40px;border:1px solid var(--line);border-radius:12px;background:#fff;display:grid;place-items:center;cursor:pointer;color:#38445a}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;border:0;border-radius:12px;background:var(--blue);color:white;padding:12px 17px;font-weight:700;font-size:13px;cursor:pointer;transition:.2s}
+    .btn:hover{background:var(--blue-dark);transform:translateY(-1px)}
+    .btn-outline{background:#fff;color:var(--ink);border:1px solid var(--line)}
+    .btn-outline:hover{background:#f4f6ff;color:var(--blue)}
+    .mobile-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;width:42px;height:42px;font-size:22px}
+    .hero{padding:76px 0 48px;overflow:hidden;position:relative}
+    .hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,#dce5ff 0,rgba(220,229,255,0) 70%);top:-180px;right:-90px;pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1.06fr .94fr;align-items:center;gap:55px;position:relative}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid #dce3ff;background:#fff;border-radius:999px;color:#4259c8;font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
+    .eyebrow i{width:7px;height:7px;background:#36b37e;border-radius:50%}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-family:Manrope,sans-serif;font-size:clamp(39px,5vw,62px);letter-spacing:-2.9px;line-height:1.09;margin:21px 0 18px;font-weight:800;max-width:620px}
+    h1 span{color:var(--blue)}
+    .hero-copy{font-size:16px;color:var(--muted);max-width:530px;line-height:1.8;margin-bottom:26px}
+    .hero-search{display:flex;gap:8px;background:#fff;padding:7px;border:1px solid #e3e7f2;border-radius:15px;box-shadow:0 12px 30px #253b7b0d;max-width:550px}
+    .hero-search input{min-width:0;flex:1;border:0;outline:0;padding:10px 12px;color:var(--ink);background:transparent;font-size:13px}
+    .hero-search .btn{white-space:nowrap}
+    .popular-terms{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px;color:#8a91a2;font-size:11px}
+    .popular-terms a{color:#5e687d;border-bottom:1px solid #cdd4e3}
+    .hero-stats{display:flex;gap:30px;margin-top:30px}
+    .stat strong{display:block;font:800 22px Manrope,sans-serif;letter-spacing:-.7px}
+    .stat small{font-size:11px;color:var(--muted)}
+    .showcase{position:relative;padding:18px}
+    .showcase:before{content:"";position:absolute;inset:0;background:linear-gradient(145deg,#e5eaff,#f4f6ff 55%,#e6f7ff);border-radius:30px;transform:rotate(3deg)}
+    .browser{position:relative;background:white;border:1px solid #e4e8f3;border-radius:16px;box-shadow:0 25px 60px #253b7b1c;overflow:hidden;transform:rotate(-2deg)}
+    .browser-bar{height:35px;border-bottom:1px solid #edf0f6;display:flex;align-items:center;gap:5px;padding:0 12px}
+    .browser-bar i{width:7px;height:7px;border-radius:50%;background:#d6dbe7}
+    .browser-bar span{margin-left:9px;background:#f5f6fa;color:#9299a9;border-radius:5px;padding:3px 28px;font-size:8px}
+    .preview{padding:17px}
+    .preview-nav{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #edf0f6;padding-bottom:12px;font-size:8px;font-weight:800}
+    .preview-logo{font-size:12px;font-weight:800;color:#293d78}
+    .preview-menu{display:flex;gap:10px;color:#8a91a2}
+    .preview-hero{display:grid;grid-template-columns:1fr .85fr;gap:12px;align-items:center;padding:21px 0}
+    .preview-label{font-size:7px;color:#536be0;text-transform:uppercase;font-weight:800;letter-spacing:1px}
+    .preview-title{font:800 21px/1.13 Manrope,sans-serif;letter-spacing:-.8px;margin:7px 0}
+    .preview-text{font-size:7px;color:#8790a2;line-height:1.6}
+    .preview-button{display:inline-block;margin-top:9px;background:#4263eb;color:white;padding:6px 10px;border-radius:5px;font-size:7px}
+    .preview-art{height:115px;border-radius:10px;background:linear-gradient(135deg,#c5d1ff,#e8edff 55%,#b7e8f1);position:relative;overflow:hidden}
+    .art-circle{position:absolute;width:75px;height:75px;background:linear-gradient(145deg,#4d68e9,#81d9e9);border-radius:50%;right:16px;top:18px;box-shadow:0 10px 25px #536be044}
+    .art-card{position:absolute;left:13px;bottom:13px;width:70px;height:48px;border-radius:7px;background:#fff9;backdrop-filter:blur(4px);transform:rotate(-9deg);border:1px solid #fff}
+    .preview-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .mini-card{height:61px;border-radius:7px;background:#f3f5fb;padding:8px}
+    .mini-card b{display:block;width:60%;height:5px;background:#c9d2f7;border-radius:3px;margin-bottom:6px}
+    .mini-card span{display:block;width:85%;height:3px;background:#dfe4ee;border-radius:3px;margin-top:4px}
+    .float-tag{position:absolute;background:#fff;border:1px solid #e6eaf5;border-radius:12px;padding:10px 13px;box-shadow:var(--shadow);font-size:10px;font-weight:700;display:flex;align-items:center;gap:8px}
+    .float-tag strong{font-size:15px;color:var(--blue)}
+    .tag-one{right:-18px;top:45px}.tag-two{left:-18px;bottom:34px}
+    .section{padding:58px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}
+    .kicker{color:var(--blue);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
+    h2{font:800 clamp(27px,3vw,36px)/1.2 Manrope,sans-serif;letter-spacing:-1.2px;margin-bottom:8px}
+    .section-head p{color:var(--muted);font-size:13px;margin:0}
+    .text-link{color:var(--blue);font-weight:700;font-size:12px;white-space:nowrap}
+    .categories{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+    .category{background:#fff;border:1px solid var(--line);border-radius:15px;padding:19px 12px;text-align:center;transition:.2s}
+    .category:hover{transform:translateY(-3px);border-color:#c8d2ff;box-shadow:var(--shadow)}
+    .category-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:13px;background:var(--pale);color:var(--blue);font-size:20px;margin:0 auto 11px}
+    .category strong{display:block;font-size:12px;margin-bottom:3px}
+    .category small{color:var(--muted);font-size:10px}
+    .templates-section{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+    .filter{border:1px solid var(--line);background:#fff;color:#667085;border-radius:999px;padding:8px 14px;font-size:11px;font-weight:700;cursor:pointer}
+    .filter.active,.filter:hover{background:var(--pale);border-color:#cbd5ff;color:var(--blue)}
+    .template-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .template-card{border:1px solid var(--line);border-radius:17px;overflow:hidden;background:#fff;transition:.22s}
+    .template-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#d5dcf5}
+    .template-thumb{height:190px;position:relative;overflow:hidden;padding:14px;background:#e9edfb}
+    .template-thumb.magazine{background:linear-gradient(135deg,#f5e8db,#f8f2eb)}
+    .template-thumb.tech{background:linear-gradient(135deg,#172033,#33466d)}
+    .template-thumb.travel{background:linear-gradient(135deg,#d6eee5,#edf7f0)}
+    .template-thumb.minimal{background:linear-gradient(135deg,#f1f0ed,#e5e2dc)}
+    .template-thumb.portfolio{background:linear-gradient(135deg,#e4dafa,#f2edff)}
+    .mock-site{height:100%;background:#fff;border-radius:8px;box-shadow:0 8px 18px #1c2a4615;padding:12px;overflow:hidden}
+    .mock-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #edf0f4;padding-bottom:8px;font-size:7px;font-weight:800}
+    .mock-head span:last-child{color:#8992a3;font-size:6px}
+    .mock-feature{height:70px;border-radius:5px;margin:10px 0;background:linear-gradient(120deg,#8fa4f7,#d2dcff);position:relative;overflow:hidden}
+    .magazine .mock-feature{background:linear-gradient(120deg,#c77e5c,#e7c8ad)}
+    .tech .mock-feature{background:linear-gradient(120deg,#182d50,#4a76c7)}
+    .travel .mock-feature{background:linear-gradient(120deg,#6ab89a,#c2e5d2)}
+    .minimal .mock-feature{background:linear-gradient(120deg,#c4bdb2,#ebe7e0)}
+    .portfolio .mock-feature{background:linear-gradient(120deg,#8f72d9,#d6c6ff)}
+    .mock-feature:after{content:"";position:absolute;width:70px;height:70px;border-radius:50%;background:#ffffff45;right:18px;top:8px}
+    .mock-lines{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .mock-lines i{height:28px;background:#f1f3f8;border-radius:4px;display:block}
+    .ribbon{position:absolute;top:23px;left:23px;border-radius:6px;background:#fff;color:#344054;padding:5px 8px;font-size:9px;font-weight:800}
+    .ribbon.premium{background:#172033;color:#fff}
+    .card-body{padding:17px}
+    .card-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .card-top h3{font:800 16px Manrope,sans-serif;letter-spacing:-.4px;margin:0}
+    .price{font-size:10px;font-weight:800;color:var(--green);background:#e8f8f0;padding:5px 8px;border-radius:6px}
+    .price.paid{background:#fff2d9;color:#9b6200}
+    .card-body p{font-size:11px;color:var(--muted);margin:9px 0 13px;line-height:1.7}
+    .tags{display:flex;gap:6px;flex-wrap:wrap}
+    .tags span{font-size:9px;color:#637087;background:#f2f4f8;padding:5px 7px;border-radius:5px}
+    .card-foot{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #f0f1f5;padding-top:13px;margin-top:14px}
+    .rating{font-size:10px;color:#7b8495}.rating b{color:#e7a126}
+    .details{font-size:11px;font-weight:800;color:var(--blue)}
+    .no-results{display:none;padding:35px;text-align:center;color:var(--muted);font-size:13px;grid-column:1/-1}
+    .benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .benefit{padding:24px;border:1px solid var(--line);background:#fff;border-radius:17px}
+    .benefit-icon{width:42px;height:42px;border-radius:12px;background:#e9f8f3;color:#16865c;display:grid;place-items:center;font-size:19px;margin-bottom:16px}
+    .benefit:nth-child(2) .benefit-icon{background:#edf1ff;color:var(--blue)}
+    .benefit:nth-child(3) .benefit-icon{background:#fff4df;color:#b7791f}
+    .benefit h3{font:800 15px Manrope,sans-serif;margin-bottom:8px}
+    .benefit p{font-size:12px;color:var(--muted);margin:0;line-height:1.8}
+    .seo-copy{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 30px}
+    .seo-copy h2{font-size:25px}
+    .seo-copy p{color:#667085;font-size:13px;line-height:1.9;margin-bottom:12px}
+    .seo-copy p:last-child{margin-bottom:0}
+    .cta{padding:0 0 70px}
+    .cta-box{border-radius:23px;background:linear-gradient(120deg,#1d347d,#4263eb 65%,#38a9dc);color:#fff;padding:38px 42px;display:flex;align-items:center;justify-content:space-between;gap:25px;overflow:hidden;position:relative}
+    .cta-box:after{content:"";position:absolute;width:280px;height:280px;border:1px solid #ffffff20;border-radius:50%;right:20%;top:-180px;box-shadow:0 0 0 35px #ffffff08,0 0 0 70px #ffffff06}
+    .cta-box h2{font-size:29px;margin-bottom:8px;position:relative;z-index:1}
+    .cta-box p{font-size:13px;color:#e0e8ff;margin:0;position:relative;z-index:1}
+    .cta-box .btn{background:#fff;color:#2845bd;position:relative;z-index:1;white-space:nowrap}
+    footer{background:#111a2b;color:#dce3f2;padding:48px 0 20px}
+    .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:35px;padding-bottom:35px}
+    .footer-brand .brand{color:#fff;margin-bottom:15px}
+    .footer-brand p{max-width:300px;color:#a8b3c8;font-size:12px;line-height:1.9}
+    .footer-col h3{font-size:12px;color:#fff;margin:5px 0 15px}
+    .footer-col a{display:block;color:#a8b3c8;font-size:11px;margin:10px 0}
+    .footer-col a:hover{color:#fff}
+    .footer-bottom{border-top:1px solid #ffffff18;padding-top:18px;display:flex;justify-content:space-between;gap:15px;color:#8d9ab2;font-size:10px}
+    .footer-bottom a{color:#b8c5dc}
+    .mobile-menu{display:none}
+    @media(max-width:900px){.navlinks{gap:15px}.hero-grid{gap:25px}.categories{grid-template-columns:repeat(3,1fr)}.template-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1.4fr 1fr 1fr}.footer-brand{grid-column:1/-1}}
+    @media(max-width:640px){.container{width:min(100% - 28px,500px)}.topbar{font-size:10px}.nav{height:66px;gap:12px}.brand{font-size:17px}.brand-mark{width:33px;height:33px}.navlinks,.nav-actions .btn{display:none}.nav-actions{margin-left:auto}.mobile-toggle{display:block}.mobile-menu{position:fixed;inset:66px 0 0;background:#fff;z-index:30;padding:25px 22px;overflow:auto}.mobile-menu.open{display:block}.mobile-menu a{display:block;padding:15px 4px;border-bottom:1px solid var(--line);font-weight:700;font-size:15px}.mobile-menu .btn{display:flex;margin-top:20px}.hero{padding:48px 0 30px}.hero-grid{grid-template-columns:1fr;gap:35px}h1{font-size:43px;letter-spacing:-2px}.hero-copy{font-size:14px}.hero-stats{gap:22px}.showcase{margin:0 8px;padding:12px}.tag-one{right:-7px;top:22px}.tag-two{left:-8px;bottom:20px}.preview-title{font-size:18px}.section{padding:42px 0}.section-head{align-items:start;flex-direction:column;gap:12px}.categories{grid-template-columns:repeat(2,1fr);gap:9px}.category{padding:15px 8px}.template-grid{grid-template-columns:1fr}.template-thumb{height:205px}.benefits{grid-template-columns:1fr;gap:12px}.seo-copy{padding:22px}.cta{padding-bottom:45px}.cta-box{padding:28px 23px;align-items:flex-start;flex-direction:column}.cta-box h2{font-size:25px}.footer-grid{grid-template-columns:1fr 1fr;gap:24px}.footer-brand{grid-column:1/-1}.footer-bottom{flex-direction:column}.hero-search{gap:3px}.hero-search input{padding:9px 7px;font-size:12px}.hero-search .btn{padding:11px 12px;font-size:11px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Discover quality themes for your next blog — <strong>free and premium Blogger templates.</strong></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#" aria-label="BloggerTemplates home"><span class="brand-mark">B</span><span>Blogger<em>Templates</em></span></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#templates">Templates</a><a href="#categories">Categories</a><a href="#why-us">Why Us</a><a href="#guides">Guides</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-icon" aria-label="Focus template search" onclick="document.getElementById('templateSearch').focus()">⌕</button>
+        <a class="btn" href="#templates">Browse Templates <span aria-hidden="true">↗</span></a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#templates">Templates</a><a href="#categories">Categories</a><a href="#why-us">Why Us</a><a href="#guides">Guides</a>
+      <a class="btn" href="#templates">Browse Templates ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><i></i> A better home for your blog</div>
+          <h1>Find the Perfect <span>Blogger Template</span></h1>
+          <p class="hero-copy">Explore beautifully designed Blogger templates built for personal blogs, magazines, portfolios, and modern websites. Find a look that fits your content and your goals.</p>
+          <form class="hero-search" id="searchForm">
+            <input id="templateSearch" type="search" placeholder="Search Blogger templates..." aria-label="Search Blogger templates">
+            <button class="btn" type="submit">Search <span aria-hidden="true">⌕</span></button>
+          </form>
+          <div class="popular-terms">Popular: <a href="#templates" data-search="free">Free templates</a><a href="#templates" data-search="magazine">Magazine</a><a href="#templates" data-search="minimal">Minimal</a><a href="#templates" data-search="seo">SEO friendly</a></div>
+          <div class="hero-stats">
+            <div class="stat"><strong>120+</strong><small>Design inspirations</small></div>
+            <div class="stat"><strong>Free &amp; Pro</strong><small>Options for every creator</small></div>
+            <div class="stat"><strong>100%</strong><small>Responsive focus</small></div>
+          </div>
+        </div>
+        <div class="showcase" aria-label="Illustration of a modern Blogger template">
+          <div class="browser">
+            <div class="browser-bar"><i></i><i></i><i></i><span>yourblog.blogspot.com</span></div>
+            <div class="preview">
+              <div class="preview-nav"><div class="preview-logo">THE DAILY NOTE</div><div class="preview-menu"><span>HOME</span><span>STORIES</span><span>ABOUT</span></div></div>
+              <div class="preview-hero">
+                <div><div class="preview-label">Ideas &amp; Inspiration</div><div class="preview-title">A fresh space for your next big idea.</div><div class="preview-text">Thoughtful stories, useful guides, and inspiration for everyday life.</div><span class="preview-button">Explore stories ↗</span></div>
+                <div class="preview-art"><div class="art-circle"></div><div class="art-card"></div></div>
+              </div>
+              <div class="preview-cards"><div class="mini-card"><b></b><span></span><span></span></div><div class="mini-card"><b></b><span></span><span></span></div><div class="mini-card"><b></b><span></span><span></span></div></div>
+            </div>
+          </div>
+          <div class="float-tag tag-one"><strong>✓</strong> Responsive design</div>
+          <div class="float-tag tag-two"><strong>✦</strong> Clean &amp; modern UI</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Explore by category</div><h2>Find a style that fits</h2><p>Browse Blogger themes by the kind of website you want to build.</p></div><a class="text-link" href="#templates">Explore all categories ↗</a></div>
+        <div class="categories">
+          <a class="category" href="#templates" data-category="personal"><div class="category-icon">✎</div><strong>Personal Blog</strong><small>Stories &amp; lifestyle</small></a>
+          <a class="category" href="#templates" data-category="magazine"><div class="category-icon">▤</div><strong>Magazine</strong><small>News &amp; editorial</small></a>
+          <a class="category" href="#templates" data-category="portfolio"><div class="category-icon">▧</div><strong>Portfolio</strong><small>Showcase your work</small></a>
+          <a class="category" href="#templates" data-category="business"><div class="category-icon">◇</div><strong>Business</strong><small>Professional websites</small></a>
+          <a class="category" href="#templates" data-category="minimal"><div class="category-icon">◫</div><strong>Minimal</strong><small>Simple &amp; elegant</small></a>
+          <a class="category" href="#templates" data-category="travel"><div class="category-icon">⌁</div><strong>Travel</strong><small>Places &amp; journeys</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section templates-section" id="templates">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Handpicked collection</div><h2>Popular Blogger Templates</h2><p>Explore sample template concepts for different blogging needs.</p></div><a class="text-link" href="#guides">How to choose a template ↗</a></div>
+        <div class="filters" role="group" aria-label="Filter templates">
+          <button class="filter active" data-filter="all">All Templates</button><button class="filter" data-filter="free">Free</button><button class="filter" data-filter="premium">Premium</button><button class="filter" data-filter="magazine">Magazine</button><button class="filter" data-filter="minimal">Minimal</button><button class="filter" data-filter="portfolio">Portfolio</button>
+        </div>
+        <div class="template-grid" id="templateGrid">
+          <article class="template-card" data-type="free personal minimal" data-name="simple journal minimal personal free seo">
+            <div class="template-thumb minimal"><span class="ribbon">FREE</span><div class="mock-site"><div class="mock-head"><span>simple journal.</span><span>HOME &nbsp; ABOUT &nbsp; BLOG</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Simple Journal</h3><span class="price">Free</span></div><p>A clean, minimal Blogger theme for personal writing, lifestyle stories, and everyday notes.</p><div class="tags"><span>Responsive</span><span>Minimal</span><span>SEO-ready layout</span></div><div class="card-foot"><span class="rating"><b>★</b> Clean design</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <article class="template-card" data-type="premium magazine" data-name="editorial press magazine premium news blog">
+            <div class="template-thumb magazine"><span class="ribbon premium">PREMIUM</span><div class="mock-site"><div class="mock-head"><span>EDITORIAL / PRESS</span><span>NEWS &nbsp; CULTURE</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Editorial Press</h3><span class="price paid">Premium</span></div><p>A structured magazine layout designed for publishing articles, features, and curated news.</p><div class="tags"><span>Magazine</span><span>Featured posts</span><span>Responsive</span></div><div class="card-foot"><span class="rating"><b>★</b> Editorial style</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <article class="template-card" data-type="free tech business" data-name="pixel craft technology business free seo">
+            <div class="template-thumb tech"><span class="ribbon">FREE</span><div class="mock-site"><div class="mock-head"><span>PIXEL/CRAFT</span><span>TECH &nbsp; IDEAS</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Pixel Craft</h3><span class="price">Free</span></div><p>A modern tech and business blog concept with bold contrast and clear content sections.</p><div class="tags"><span>Technology</span><span>Business</span><span>Fast layout</span></div><div class="card-foot"><span class="rating"><b>★</b> Modern style</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <article class="template-card" data-type="premium travel personal" data-name="roam journal travel premium photography">
+            <div class="template-thumb travel"><span class="ribbon premium">PREMIUM</span><div class="mock-site"><div class="mock-head"><span>ROAM JOURNAL</span><span>DESTINATIONS</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Roam Journal</h3><span class="price paid">Premium</span></div><p>A visual travel-blog concept for destination guides, trip stories, and photography-led posts.</p><div class="tags"><span>Travel</span><span>Visual posts</span><span>Responsive</span></div><div class="card-foot"><span class="rating"><b>★</b> Photo friendly</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <article class="template-card" data-type="free portfolio minimal" data-name="folio studio portfolio minimal free designer">
+            <div class="template-thumb portfolio"><span class="ribbon">FREE</span><div class="mock-site"><div class="mock-head"><span>FOLIO STUDIO</span><span>WORK &nbsp; ABOUT</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Folio Studio</h3><span class="price">Free</span></div><p>A portfolio-inspired Blogger layout to present creative projects, case studies, and services.</p><div class="tags"><span>Portfolio</span><span>Creative</span><span>Minimal</span></div><div class="card-foot"><span class="rating"><b>★</b> Portfolio layout</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <article class="template-card" data-type="premium business magazine" data-name="northstar business premium corporate professional">
+            <div class="template-thumb"><span class="ribbon premium">PREMIUM</span><div class="mock-site"><div class="mock-head"><span>NORTHSTAR</span><span>INSIGHTS &nbsp; ABOUT</span></div><div class="mock-feature"></div><div class="mock-lines"><i></i><i></i></div></div></div>
+            <div class="card-body"><div class="card-top"><h3>Northstar</h3><span class="price paid">Premium</span></div><p>A polished business blog concept for professional insights, company updates, and resources.</p><div class="tags"><span>Business</span><span>Professional</span><span>Responsive</span></div><div class="card-foot"><span class="rating"><b>★</b> Corporate style</span><a class="details" href="#guides">View details ↗</a></div></div>
+          </article>
+          <div class="no-results" id="noResults">No matching templates. Try another search or filter.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-us">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Designed for creators</div><h2>What to look for in a Blogger theme</h2><p>A good template should make your content easier to read and your site easier to use.</p></div></div>
+        <div class="benefits">
+          <article class="benefit"><div class="benefit-icon">↗</div><h3>Responsive on every screen</h3><p>Choose a Blogger template that adapts naturally to mobile phones, tablets, laptops, and desktop displays.</p></article>
+          <article class="benefit"><div class="benefit-icon">⌕</div><h3>SEO-friendly structure</h3><p>Look for readable markup, logical headings, fast-loading pages, and useful metadata. A template alone cannot guarantee rankings.</p></article>
+          <article class="benefit"><div class="benefit-icon">✧</div><h3>Simple to customize</h3><p>Pick a design that fits your brand and lets you adjust colors, typography, menus, and content without unnecessary complexity.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="guides">
+      <div class="container">
+        <div class="seo-copy">
+          <div class="kicker">Blogger template guide</div>
+          <h2>Find the best Blogger templates for your website</h2>
+          <p>Blogger templates shape the appearance and usability of a blog built on Google Blogger. Whether you are starting a personal blog, creating an online magazine, publishing tutorials, or presenting a portfolio, the right Blogger theme can help organize your content and create a consistent reading experience.</p>
+          <p>When comparing free Blogger templates and premium Blogger templates, consider mobile responsiveness, loading performance, accessible navigation, customization options, and compatibility with the features you actually use. Review the template demo and documentation before installing it, and keep a backup of your existing theme before making changes.</p>
+          <p>For a stronger foundation, combine a well-structured Blogger template with helpful original content, descriptive page titles, relevant internal links, image alt text, and accurate metadata. These practices support usability and discoverability, but search visibility depends on many factors beyond the design alone.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container"><div class="cta-box"><div><h2>Ready to refresh your Blogger website?</h2><p>Explore layouts, compare styles, and find a design that suits your next idea.</p></div><a class="btn" href="#templates">Explore Templates ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">B</span><span>Blogger<em>Templates</em></span></a><p>A discovery hub for Blogger templates, design inspiration, and practical tips to help creators build a better blog.</p></div>
+        <div class="footer-col"><h3>Discover</h3><a href="#templates">All Templates</a><a href="#categories">Categories</a><a href="#templates">Free Blogger Templates</a><a href="#templates">Premium Themes</a></div>
+        <div class="footer-col"><h3>Resources</h3><a href="#guides">Template Guide</a><a href="#why-us">SEO Basics</a><a href="#guides">Customization Tips</a><a href="#guides">Blogger Help</a></div>
+        <div class="footer-col"><h3>Information</h3><a href="#about">About Us</a><a href="#contact">Contact</a><a href="#privacy">Privacy Policy</a><a href="#disclaimer">Disclaimer</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> BloggerTemplates. All rights reserved.</span><span>Made for bloggers and creators.</span></div>
+    </div>
+  </footer>
+  <script>
+    const searchInput = document.getElementById('templateSearch');
+    const cards = [...document.querySelectorAll('.template-card')];
+    const filters = [...document.querySelectorAll('.filter')];
+    const noResults = document.getElementById('noResults');
+    let activeFilter = 'all';
+
+    function filterTemplates() {
+      const query = searchInput.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach(card => {
+        const searchable = (card.dataset.name + ' ' + card.dataset.type + ' ' + card.innerText).toLowerCase();
+        const matchesQuery = !query || searchable.includes(query);
+        const matchesFilter = activeFilter === 'all' || card.dataset.type.split(' ').includes(activeFilter);
+        card.style.display = matchesQuery && matchesFilter ? '' : 'none';
+        if (matchesQuery && matchesFilter) visible++;
+      });
+      noResults.style.display = visible ? 'none' : 'block';
+    }
+
+    document.getElementById('searchForm').addEventListener('submit', event => {
+      event.preventDefault();
+      filterTemplates();
+      document.getElementById('templates').scrollIntoView({behavior:'smooth'});
+    });
+    searchInput.addEventListener('input', filterTemplates);
+    filters.forEach(button => button.addEventListener('click', () => {
+      filters.forEach(item => item.classList.remove('active'));
+      button.classList.add('active');
+      activeFilter = button.dataset.filter;
+      filterTemplates();
+    }));
+    document.querySelectorAll('[data-search]').forEach(link => link.addEventListener('click', () => {
+      searchInput.value = link.dataset.search;
+      activeFilter = 'all';
+      filters.forEach(item => item.classList.toggle('active', item.dataset.filter === 'all'));
+      filterTemplates();
+    }));
+    document.querySelectorAll('[data-category]').forEach(link => link.addEventListener('click', () => {
+      const category = link.dataset.category;
+      searchInput.value = '';
+      activeFilter = category === 'personal' ? 'all' : category;
+      filters.forEach(item => item.classList.toggle('active', item.dataset.filter === activeFilter));
+      filterTemplates();
+    }));
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileToggle.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      mobileToggle.setAttribute('aria-expanded', open);
+      mobileToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      mobileToggle.textContent = open ? '×' : '☰';
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      mobileToggle.setAttribute('aria-expanded', 'false');
+      mobileToggle.textContent = '☰';
+      document.body.style.overflow = '';
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
